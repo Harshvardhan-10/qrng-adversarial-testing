@@ -1,0 +1,43 @@
+Test Data File (Binary):
+D:/Harsh/qrng-adversarial-testing/data/prng_bits.txt
+
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency (Monobit) Test                      	0.2605890342736177  	Random
+02. Frequency Test within a Block                 	0.08678534847596511 	Random
+03. Runs Test                                     	0.1616094145022955  	Random
+04. Test for the Longest Run of Ones in a Block   	0.7247638357201334  	Random
+05. Binary Matrix Rank Test                       	0.6937201409888837  	Random
+06. Discrete Fourier Transform (Spectral) Test    	0.9086766781799538  	Random
+07. Non-overlapping Template Matching Test        	0.6232585767421998  	Random
+08. Overlapping Template Matching Test            	nan                 	Non-Random
+09. Maurer's "Universal Statistical" Test         	-1.0                	Non-Random
+10. Linear Complexity Test                        	0.9856083034479547  	Random
+11. Serial Test:
+													0.10591374411110245 	Random
+													0.49853075529672125 	Random
+12. Approximate Entropy Test                      	0.9965595398436713  	Random
+13. Cumulative Sums Test (Forward)                	0.3381887424663558  	Random
+14. Cumulative Sums Test (Backward)               	0.49411207027733645 	Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	5.395251978342357   	0.3695686228024224  	Random
+				-3        	16.599999999999998  	0.005324337409375595	Non-Random
+				-2        	6.666666666666667   	0.24663415218605245 	Random
+				-1        	1.0                 	0.9625657732472964  	Random
+				+1        	1.0                 	0.9625657732472964  	Random
+				+2        	0.6666666666666666  	0.984747879018509   	Random
+				+3        	0.4                 	0.9953295932358704  	Random
+				+4        	0.2857142857142857  	0.9979031595107858  	Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-9.0      	13                  	0.18222157493333124 	Random
+				-8.0      	11                  	0.24527811680677292 	Random
+				-7.0      	10                  	0.26725749315438785 	Random
+				-6.0      	9                   	0.2912928476178128  	Random
+				-5.0      	10                  	0.18242243945173575 	Random
+				-4.0      	5                   	0.5707503880581739  	Random
+				-3.0      	1                   	0.8230632737581215  	Random
+				-2.0      	1                   	0.7728299926844475  	Random
+				-1.0      	1                   	0.6170750774519739  	Random
+				+1.0      	1                   	0.6170750774519739  	Random
