@@ -38,8 +38,5 @@ def generate_prng_bits(n_bits, filename="prng_bits.txt", seed=None):
     return bits
 
 if __name__ == "__main__":
-    # Generate 1024 bits
-    bits = generate_prng_bits(n_bits=1024, filename="prng_bits.txt")
-    
-    # Optional: Generate with a specific seed for reproducibility
-    # bits = generate_prng_bits(n_bits=1024, filename="prng_bits.txt", seed=42)
+    # Generate 1 Mln bits
+    bits = generate_prng_bits(n_bits=64000000, filename="prng_64M_bits.txt")
